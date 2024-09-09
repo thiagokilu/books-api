@@ -6,7 +6,7 @@ def main
   biblioteca = Biblioteca.new
   resposta = 's'
   while resposta != 'n' do
-    resposta = entrada(biblioteca)
+    resposta = biblioteca.entrada
   end
 
   biblioteca.exibirEstante

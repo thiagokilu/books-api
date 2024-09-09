@@ -1,12 +1,13 @@
 class Livro
-  attr_reader :titulo, :subtitulo, :autor, :editora, :dataPublicacao
+  attr_reader :titulo, :subtitulo, :autor, :editora, :dataPublicacao, :descricao
 
-  def initialize(titulo, subtitulo, autor, editora, dataPublicacao)
+  def initialize(titulo, subtitulo, autor, editora, dataPublicacao,descricao)
     @titulo = titulo
     @subtitulo = subtitulo
     @autor = autor
     @editora = editora
     @dataPublicacao = dataPublicacao
+    @descricao = descricao
   end
 
   def exibir
